@@ -1,0 +1,41 @@
+﻿README for Linux SDK
+-----------------------
+
+==============================================================
+只想要了解aiui SDK如何使用的开发者，仅关注aiui_sample示例即可
+==============================================================
+
+
+目录结构说明
+
+samples：
+|-- aiui_sample （AIUI示例，展示如何使用aiui sdk进行文本语义，语音语义，以及动态上传资源）
+
+|-- asr_sample（语音识别示例）
+
+|-- iat_sample（语音听写示例）
+
+|-- ise_sample（语音评测示例）
+
+|-- tts_sample（语音合成示例）
+
+|-- sch_speak_sample（语音语义示例）
+
+|-- sch_text_sample（文本语义示例）
+
+|-- iat_record_sample（录音听写示例）
+
+	
+libs：
+|-- x86
+	|--（32位动态库lib文件）
+|-- x64
+	|--（64位动态库lib文件）
+	
+PS: 该压缩包里面自带的msc.lib及对应的msc.dll是针对非aiui_sample使用的，aiui_sample在不开ivw唤醒时是不需要用到msc库的，如果使用aiui_sample时，想要打开ivw唤醒，需要自行下载支持唤醒的msc库以及对应的资源文件，msc库下载后替换libs下面现有的同名文件，msc.dll放到bin目录下，关于aiui_sample具体如何使用ivw唤醒，请参考aiui_sample下面的readme文档。
+
+include:
+	SDK 需要用到的头文件
+	
+bin:
+	程序执行目录

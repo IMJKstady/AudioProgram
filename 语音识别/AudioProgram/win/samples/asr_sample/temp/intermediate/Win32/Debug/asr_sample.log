@@ -1,0 +1,38 @@
+﻿Build started 2018/6/11 18:28:05.
+     1>Project "D:\code\cfyun_SDK_ORG_new_protocol\windows\1036_0001\samples\asr_sample\asr_sample.vcxproj" on node 2 (build target(s)).
+     1>InitializeBuildStatus:
+         Creating "D:\code\cfyun_SDK_ORG_new_protocol\windows\1036_0001\samples\asr_sample\temp\intermediate\Win32\Debug\asr_sample.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       PreBuildEvent:
+         del "D:\code\cfyun_SDK_ORG_new_protocol\windows\1036_0001\samples\asr_sample\..\..\bin\asr_sample.exe"
+         :VCEnd
+         找不到 D:\code\cfyun_SDK_ORG_new_protocol\windows\1036_0001\bin\asr_sample.exe
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I../../include/ /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"D:\code\cfyun_SDK_ORG_new_protocol\windows\1036_0001\samples\asr_sample\temp\intermediate\Win32\Debug\\" /Fd"D:\code\cfyun_SDK_ORG_new_protocol\windows\1036_0001\samples\asr_sample\temp\intermediate\Win32\Debug\vc100.pdb" /Gd /TC /analyze- /errorReport:prompt asr_sample.c
+         asr_sample.c
+     1>d:\code\cfyun_sdk_org_new_protocol\windows\1036_0001\samples\asr_sample\asr_sample.c(39): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(234) : see declaration of 'fopen'
+     1>d:\code\cfyun_sdk_org_new_protocol\windows\1036_0001\samples\asr_sample\asr_sample.c(78): warning C4996: 'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\string.h(188) : see declaration of 'strncpy'
+     1>d:\code\cfyun_sdk_org_new_protocol\windows\1036_0001\samples\asr_sample\asr_sample.c(115): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(234) : see declaration of 'fopen'
+     1>d:\code\cfyun_sdk_org_new_protocol\windows\1036_0001\samples\asr_sample\asr_sample.c(153): warning C4018: '<' : signed/unsigned mismatch
+     1>d:\code\cfyun_sdk_org_new_protocol\windows\1036_0001\samples\asr_sample\asr_sample.c(201): warning C4996: 'strncat': This function or variable may be unsafe. Consider using strncat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\string.h(175) : see declaration of 'strncat'
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"D:\code\cfyun_SDK_ORG_new_protocol\windows\1036_0001\samples\asr_sample\temp\output\Win32\Debug\asr_sample.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"D:\code\cfyun_SDK_ORG_new_protocol\windows\1036_0001\samples\asr_sample\temp\intermediate\Win32\Debug\asr_sample.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"D:\code\cfyun_SDK_ORG_new_protocol\windows\1036_0001\samples\asr_sample\temp\output\Win32\Debug\asr_sample.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\code\cfyun_SDK_ORG_new_protocol\windows\1036_0001\samples\asr_sample\temp\output\Win32\Debug\asr_sample.lib" /MACHINE:X86 D:\code\cfyun_SDK_ORG_new_protocol\windows\1036_0001\samples\asr_sample\temp\intermediate\Win32\Debug\asr_sample.obj
+     1>asr_sample.obj : warning LNK4075: ignoring '/EDITANDCONTINUE' due to '/INCREMENTAL:NO' specification
+         asr_sample.vcxproj -> D:\code\cfyun_SDK_ORG_new_protocol\windows\1036_0001\samples\asr_sample\temp\output\Win32\Debug\asr_sample.exe
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"D:\code\cfyun_SDK_ORG_new_protocol\windows\1036_0001\samples\asr_sample\temp\output\Win32\Debug\asr_sample.exe;#1" /manifest D:\code\cfyun_SDK_ORG_new_protocol\windows\1036_0001\samples\asr_sample\temp\intermediate\Win32\Debug\asr_sample.exe.intermediate.manifest
+       PostBuildEvent:
+         copy "D:\code\cfyun_SDK_ORG_new_protocol\windows\1036_0001\samples\asr_sample\temp\output\Win32\Debug\asr_sample.exe" "D:\code\cfyun_SDK_ORG_new_protocol\windows\1036_0001\samples\asr_sample\..\..\bin\asr_sample.exe"
+         :VCEnd
+         已复制         1 个文件。
+       FinalizeBuildStatus:
+         Deleting file "D:\code\cfyun_SDK_ORG_new_protocol\windows\1036_0001\samples\asr_sample\temp\intermediate\Win32\Debug\asr_sample.unsuccessfulbuild".
+         Touching "D:\code\cfyun_SDK_ORG_new_protocol\windows\1036_0001\samples\asr_sample\temp\intermediate\Win32\Debug\asr_sample.lastbuildstate".
+     1>Done Building Project "D:\code\cfyun_SDK_ORG_new_protocol\windows\1036_0001\samples\asr_sample\asr_sample.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:02.84

@@ -1,0 +1,6 @@
+E:\vs_ProJect\Audio\MscAudioDll\MscAudio\MscAudio\bin\Release\MscAudio.dll
+E:\vs_ProJect\Audio\MscAudioDll\MscAudio\MscAudio\bin\Release\MscAudio.pdb
+E:\vs_ProJect\Audio\MscAudioDll\MscAudio\MscAudio\obj\Release\MscAudio.csproj.CoreCompileInputs.cache
+E:\vs_ProJect\Audio\MscAudioDll\MscAudio\MscAudio\obj\Release\MscAudio.dll
+E:\vs_ProJect\Audio\MscAudioDll\MscAudio\MscAudio\obj\Release\MscAudio.pdb
+E:\vs_ProJect\Audio\MscAudioDll\MscAudio\MscAudio\obj\Release\MscAudio.csprojAssemblyReference.cache

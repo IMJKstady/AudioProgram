@@ -1,0 +1,98 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Source Files\jsoncpp">
+      <UniqueIdentifier>{0beb9b86-1363-4d08-afdf-17b92aa1e4b3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\jsoncpp\json">
+      <UniqueIdentifier>{b8e43c7c-56b1-4914-a274-ad1635877a06}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src\demo.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\FileUtil.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\AIUITest.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\jsoncpp\json_reader.cpp">
+      <Filter>Source Files\jsoncpp</Filter>
+    </ClCompile>
+    <ClCompile Include="src\jsoncpp\json_value.cpp">
+      <Filter>Source Files\jsoncpp</Filter>
+    </ClCompile>
+    <ClCompile Include="src\jsoncpp\json_writer.cpp">
+      <Filter>Source Files\jsoncpp</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="src\FileUtil.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\AIUITest.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\jsoncpp\json_batchallocator.h">
+      <Filter>Source Files\jsoncpp</Filter>
+    </ClInclude>
+    <ClInclude Include="src\jsoncpp\json_tool.h">
+      <Filter>Source Files\jsoncpp</Filter>
+    </ClInclude>
+    <ClInclude Include="src\jsoncpp\json\assertions.h">
+      <Filter>Source Files\jsoncpp\json</Filter>
+    </ClInclude>
+    <ClInclude Include="src\jsoncpp\json\autolink.h">
+      <Filter>Source Files\jsoncpp\json</Filter>
+    </ClInclude>
+    <ClInclude Include="src\jsoncpp\json\config.h">
+      <Filter>Source Files\jsoncpp\json</Filter>
+    </ClInclude>
+    <ClInclude Include="src\jsoncpp\json\features.h">
+      <Filter>Source Files\jsoncpp\json</Filter>
+    </ClInclude>
+    <ClInclude Include="src\jsoncpp\json\forwards.h">
+      <Filter>Source Files\jsoncpp\json</Filter>
+    </ClInclude>
+    <ClInclude Include="src\jsoncpp\json\json.h">
+      <Filter>Source Files\jsoncpp\json</Filter>
+    </ClInclude>
+    <ClInclude Include="src\jsoncpp\json\reader.h">
+      <Filter>Source Files\jsoncpp\json</Filter>
+    </ClInclude>
+    <ClInclude Include="src\jsoncpp\json\value.h">
+      <Filter>Source Files\jsoncpp\json</Filter>
+    </ClInclude>
+    <ClInclude Include="src\jsoncpp\json\version.h">
+      <Filter>Source Files\jsoncpp\json</Filter>
+    </ClInclude>
+    <ClInclude Include="src\jsoncpp\json\writer.h">
+      <Filter>Source Files\jsoncpp\json</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="src\jsoncpp\json_internalarray.inl">
+      <Filter>Source Files\jsoncpp</Filter>
+    </None>
+    <None Include="src\jsoncpp\json_internalmap.inl">
+      <Filter>Source Files\jsoncpp</Filter>
+    </None>
+    <None Include="src\jsoncpp\json_valueiterator.inl">
+      <Filter>Source Files\jsoncpp</Filter>
+    </None>
+  </ItemGroup>
+</Project>
